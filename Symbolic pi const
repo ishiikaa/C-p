@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+#define PI 3.14159
+
+int main(void){
+  
+  double diameter = 5.5;
+  double radius = diameter / 2.0;
+  
+  double circumference = 2.0*radius*PI;
+  
+  double area = PI*radius*radius;
+  
+  printf("The diameter of the circle is %.2f\n", diameter);
+  printf("The radius of the circle is %.2f\n", radius);
+  printf("The circumference of the circle is %.3f\n", circumference);
+  printf("The area of the circle is %.3f\n", area);
+  
+  return 0;
+  
+  
+}
