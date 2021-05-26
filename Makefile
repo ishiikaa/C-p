@@ -1,0 +1,2 @@
+distclean:
+	rm ./*.exe
